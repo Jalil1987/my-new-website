@@ -1,3 +1,88 @@
-.style button{
-    padding: 10px 20px;
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Lato&family=Meow+Script&family=Open+Sans&family=Oswald&display=swap');
+/*--General CSS-- */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*--Header CSS-- */
+header{
+    background:#dcdde1;
+    padding: 20px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 60%;
+}
+.menu > ul{
+    display: flex;
+    justify-content: center;
+}
+.menu ul li{
+    list-style: none;
+    position: relative;
+}
+.menu ul li a{
+    color: #2d3436;
+    padding: 5px 20px;
+    display: block;
+    font-weight: 800;
+    text-transform: capitalize;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: orangered;
+    transform: translatey(-3px);
+}
+.menu ul ul{
+ position: absolute;
+ top: 100%;
+ left: 0;
+ background: #dcdde1;
+ display: none;    
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.menu ul ul li{
+    white-space: nowrap; 
+}
+.search{
+    width: 20%;
+    position: relative;
+}
+.search input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.search button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    top: 30%;
+    right: 10px;
 }
