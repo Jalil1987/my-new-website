@@ -86,3 +86,24 @@ header{
     top: 30%;
     right: 10px;
 }
+
+.banner{
+    background: url(images/5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-overlay{
+    background: rgba(0, 0, 0, .3);
+    padding: 240px 0;
+}
+.banner-content{
+    text-align: center;
+    color: orangered;
+    width: 70%;
+    margin: 0 auto;
+}
+.banner-content h1{
+    margin-bottom: 15px;
+}
