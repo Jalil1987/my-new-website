@@ -16,6 +16,12 @@ img{
     height: auto;
     display: block;
 }
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
+}
 
 /*--Header CSS-- */
 header{
@@ -87,6 +93,7 @@ header{
     right: 10px;
 }
 
+/*--Banner CSS-- */                            
 .banner{
     background: url(images/5.jpg);
     background-repeat: no-repeat;
@@ -106,4 +113,37 @@ header{
 }
 .banner-content h1{
     margin-bottom: 15px;
+}
+/*--About CSS-- */ 
+
+.about-us{
+    padding: 85px 0;
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+}
+.about-left{
+    width: 45%;
+}
+.about-right{
+    width: 50%;
+}
+.about-right h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.about-right h3 span{
+    color: orangered;
+}
+.about-right p{
+    margin-bottom: 15px;
+    line-height: 1.7em;
+}
+.about-right a{
+    background: orangered;
+    padding: 5px 10px;
+    color: #fff;
+    margin-top: 10px;
+    display: inline-block;
 }
